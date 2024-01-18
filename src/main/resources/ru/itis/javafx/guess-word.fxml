@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="ru.itis.javafx.fx.controllers.GuessWordController" alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-min-width: 250px;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="319.0" minWidth="10.0" prefWidth="181.0" />
+    <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="542.0" minWidth="10.0" prefWidth="419.0" />
+  </columnConstraints>
+   <Text text="Тема: ">
+      <font>
+         <Font name="JetBrains Mono Regular" size="20.0" />
+      </font>
+      <GridPane.margin>
+         <Insets left="100.0" />
+      </GridPane.margin></Text>
+   <Text layoutX="10.0" layoutY="82.0" text="Слово:" GridPane.columnSpan="2" GridPane.rowIndex="1">
+      <font>
+         <Font name="JetBrains Mono Regular" size="20.0" />
+      </font>
+      <GridPane.margin>
+         <Insets left="100.0" />
+      </GridPane.margin></Text>
+   <TextField fx:id="topic" promptText="природа" style="-fx-min-width: 250px;" GridPane.columnIndex="1" />
+   <TextField fx:id="word" layoutX="310.0" layoutY="91.0" promptText="дуб" style="-fx-min-width: 250px;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   <Button fx:id="begin" onAction="#buttonClicked" mnemonicParsing="false" text="Начать" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <font>
+         <Font name="JetBrains Mono Regular" size="20.0" />
+      </font>
+      <GridPane.margin>
+         <Insets left="60.0" />
+      </GridPane.margin>
+   </Button>
+  <rowConstraints>
+    <RowConstraints maxHeight="186.0" minHeight="10.0" prefHeight="129.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="187.0" minHeight="0.0" prefHeight="119.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="271.0" minHeight="10.0" prefHeight="152.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>

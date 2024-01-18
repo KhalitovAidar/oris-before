@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.itis.javafx.fx.controllers.GuesserController">
+   <children>
+      <Button fx:id="А" onAction="#handleButtonClick" layoutX="80.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="A" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="-3.0" top="-3.0" />
+         </padding>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Б" onAction="#handleButtonClick" layoutX="120.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Б" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="-3.0" top="-3.0" />
+         </padding>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="В" onAction="#handleButtonClick" layoutX="160.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="В" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="-3.0" top="-3.0" />
+         </padding>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Г" onAction="#handleButtonClick" layoutX="200.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Г" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="-3.0" top="-3.0" />
+         </padding>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Д" onAction="#handleButtonClick" layoutX="240.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Д" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="-3.0" top="-3.0" />
+         </padding>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Е" onAction="#handleButtonClick" layoutX="280.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Е" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="-3.0" top="-3.0" />
+         </padding>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+       <Button fx:id="Ё" onAction="#handleButtonClick" layoutX="320.0" layoutY="250.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="0.0" style="-fx-background-color: none;" text="Ё" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ж" onAction="#handleButtonClick" layoutX="360.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ж" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="З" onAction="#handleButtonClick" layoutX="400.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="З" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="И" onAction="#handleButtonClick" layoutX="440.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="И" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Й" onAction="#handleButtonClick" layoutX="480.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Й" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="К" onAction="#handleButtonClick" layoutX="80.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="К" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Л" onAction="#handleButtonClick" layoutX="120.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Л" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="М" onAction="#handleButtonClick" layoutX="160.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="М" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Н" onAction="#handleButtonClick" layoutX="200.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Н" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="О" onAction="#handleButtonClick" layoutX="240.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="О" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="П" onAction="#handleButtonClick" layoutX="280.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="П" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Р" onAction="#handleButtonClick" layoutX="320.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Р" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="С" onAction="#handleButtonClick" layoutX="360.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="С" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Т" onAction="#handleButtonClick" layoutX="400.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Т" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="У" onAction="#handleButtonClick" layoutX="440.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="У" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ф" onAction="#handleButtonClick" layoutX="480.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ф" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Х" onAction="#handleButtonClick" layoutX="80.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Х" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ц" onAction="#handleButtonClick" layoutX="120.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ц" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ч" onAction="#handleButtonClick" layoutX="160.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ч" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ш" onAction="#handleButtonClick" layoutX="200.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ш" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Щ" onAction="#handleButtonClick" layoutX="240.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Щ" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ъ" onAction="#handleButtonClick" layoutX="280.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ъ" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ы" onAction="#handleButtonClick" layoutX="320.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ы" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ь" onAction="#handleButtonClick" layoutX="360.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ь" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Э" onAction="#handleButtonClick" layoutX="400.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Э" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Ю" onAction="#handleButtonClick" layoutX="440.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Ю" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+       <Button fx:id="Я" onAction="#handleButtonClick" layoutX="480.0" layoutY="310.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Я" textAlignment="CENTER">
+           <padding>
+               <Insets bottom="-3.0" top="-3.0" />
+           </padding>
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+   </children>
+</Pane>
