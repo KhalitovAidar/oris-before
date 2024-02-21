@@ -11,7 +11,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
-@AllArgsConstructor
 @NoArgsConstructor
 @Getter @Setter
 public class MyServer  {
@@ -19,16 +18,13 @@ public class MyServer  {
 
     private static Boolean inGame = Boolean.FALSE;
 
-    private String topic;
-    private String word;
-    private GuessWordClient guessWordClient;
+    private static String topic;
+    private static String word;
+    private static GuessWordClient guessWordClient;
 
     @SneakyThrows
-    public void game() {
+    public static void main(String[] args) {
         ServerSocket serverSocket = new ServerSocket(port);
-
-        Thread guessWordThread = new Thread(new ClientThread(guessWordClient));
-        guessWordThread.start();
 
         Socket firstClientSocket = serverSocket.accept();
         System.out.println("Первый клиент подключен: " + firstClientSocket);
